@@ -1,6 +1,7 @@
 import './App.css'
 import DaisyNav from './components/DaisyNav/DaisyNav'
 import NavBar from './components/NavBar/NavBar'
+import PriceOptions from './components/PriceOptions/PriceOptions'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <DaisyNav></DaisyNav>
     <NavBar></NavBar>
     <hr /><br />
+    <PriceOptions></PriceOptions>
       <div className='grid lg:grid-cols-3 gap-5 grid-cols-1'>
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure><img src="https://images.pexels.com/photos/6899555/pexels-photo-6899555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Shoes" /></figure>
