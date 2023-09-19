@@ -34,19 +34,18 @@ const PriceOptions = () => {
                 "Full range of workout equipment",
                 "24/7 gym access",
                 "Personal training sessions",
-                "Access to sauna and spa",
-                "Access to locker room",
-                "Towel service"
+                "Access to sauna and spa"
             ],
             "price": 80.00
         }
     ];
     return (
         <div>
-            <h2>Price Options</h2>
-            {
-                priceOptions.map( option => <PriceOption key={option.id} option={option}></PriceOption>)
-            }
+            <div className="grid grid-cols-3 gap-7">
+                {
+                    priceOptions.map( option => <PriceOption key={option.id} option={option}></PriceOption>)
+                }
+            </div>
         </div>
     );
 };
